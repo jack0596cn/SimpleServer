@@ -23,7 +23,7 @@ while True:
     client_data = conn.recv(1024) # Recv is also blocked
     print client_data
     if client_data == 'loadPlayer|1':
-        print("111111111111111")
+        print("loadPlayer")
     elif client_data == "AAA":
         conn.sendall("AAA_Resp")
 
